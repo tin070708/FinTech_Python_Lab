@@ -1,0 +1,16 @@
+ho_ten_khach_hang_raw = input("Nhập họ và tên khách hàng: ")
+ho_ten_khach_hang= ho_ten_khach_hang_raw.upper()
+so_dien_thoai = input ("Nhập số điện thoại: ")
+so_CCCD_input = input ("Hảy nhập 4 số cuối CCCD:")
+so_CCCD = int(so_CCCD_input)
+so_tien_nap_ban_dau = input ("SỐ tiền nap:")
+so_tien_nap_ban_dau_du=int(so_tien_nap_ban_dau)
+phi_mo_vi = so_tien_nap_ban_dau_du - 50000
+so_du_kha_dung_thuc_te = so_tien_nap_ban_dau_du - phi_mo_vi
+print("       KHỞI TẠO VÍ     ")
+print(f"HỌ VÀ TÊN                         :{ho_ten_khach_hang}")
+print(f"4 Số  CCCD                        :{so_CCCD_input} ")
+print(f"Số Tiền Nạp Của Bạn               :{so_tien_nap_ban_dau_du}")
+print(f"Hệ Thống Tự Động Trừ 50000 VND")
+print(f"Số Dư Khả Dụng Thực Tế            :{so_du_kha_dung_thuc_te}")
+print("Cảm ơn quý khách đã gia nhập hệ thống số!")
